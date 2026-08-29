@@ -817,6 +817,48 @@ a {
   min-height: 420px;
 }
 
+
+/*
+   The Data Visualization card sits beside the CubeSat card.
+   Give its custom artwork a taller media region so the two cards
+   feel visually balanced instead of leaving excess empty body space.
+*/
+.project-card-data .project-art-data {
+  min-height: 500px;
+}
+
+.project-card-data .data-bars {
+  gap: 12px;
+  height: 180px;
+}
+
+.project-card-data .data-bars i {
+  width: 24px;
+}
+
+.project-card-data .data-orbit {
+  width: 255px;
+}
+
+/* Chat Multiple PDFs screenshot card */
+.project-media-chat {
+  display: grid;
+  place-items: center;
+  min-height: 360px;
+  padding: 16px;
+  background: var(--bg-soft);
+}
+
+.project-media-chat img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  object-position: center;
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  background: #06101b;
+}
+
 .project-media img {
   width: 100%;
   height: 100%;
@@ -1456,6 +1498,25 @@ a {
 
   .project-card-featured .project-media {
     min-height: 280px;
+  }
+
+
+  .project-card-data .project-art-data,
+  .project-media-chat {
+    min-height: 280px;
+  }
+
+  .project-card-data .data-bars {
+    gap: 9px;
+    height: 130px;
+  }
+
+  .project-card-data .data-bars i {
+    width: 18px;
+  }
+
+  .project-card-data .data-orbit {
+    width: 185px;
   }
 
   .project-media,

@@ -186,11 +186,8 @@
 /* ==========================================================
    VANTA / THREE.JS BIRD FIELDS
 
-   Hero:
-   Larger neon-green bird field.
-
-   Contact:
-   Separate larger deep-red bird field.
+   Hero birds match the site accent color.
+   Contact birds keep the deep-red palette.
    ========================================================== */
 
 let heroBirds = null;
@@ -208,7 +205,6 @@ const vantaAvailable = () => {
 
 /* ==========================================================
    HERO BIRDS
-   Larger, brighter neon-green birds for the home page.
    ========================================================== */
 
 const startHeroBirds = () => {
@@ -243,14 +239,12 @@ const startHeroBirds = () => {
 
     backgroundColor: 0x07111d,
 
-    color1: 0x39ff14,
-    color2: 0x00ff88,
+    color1: 0x61d9c3,
+    color2: 0x61d9c3,
 
     colorMode: "lerp",
 
-    birdSize: 0.72,
-
-    wingSpan: 28,
+    birdSize: 0.42,
 
     speedLimit: 3.2,
 
